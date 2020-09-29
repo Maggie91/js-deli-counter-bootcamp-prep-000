@@ -7,7 +7,7 @@ function nowServing(katzDeliLine){
   for (let i = 0; i < katzDeliLine.length; i++)
     if (katzDeliLine.length > 0) {
       var serving = `Currently serving ${katzDeliLine[0]}.`;
-      katzDeliLine.pop(1);
+      katzDeliLine.shift(1);
       return serving;
     }
     else if (katzDeliLine.length === 0) {
