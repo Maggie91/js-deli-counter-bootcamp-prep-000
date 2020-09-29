@@ -15,5 +15,13 @@ function nowServing(katzDeliLine){
     }
 }
 
-function 
+function currentLine(katzDeliLine) {
+  var count = [];
+  for 
+  function announcement() {
+    
+  }
+    
+  return announcement;
+}
 
