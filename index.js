@@ -4,7 +4,6 @@ function takeANumber(katzDeli,name) {
 }
 
 function nowServing(katzDeliLine){
-  for (let i = 0; i < katzDeliLine.length; i++)
     if (katzDeliLine.length > 0) {
       var serving = `Currently serving ${katzDeliLine[0]}.`;
       katzDeliLine.shift(1);
